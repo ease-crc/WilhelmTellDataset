@@ -2,6 +2,8 @@
 
 The Wilhelm Tell Dataset is a novel dataset for affordance learning of common household tasks. Our dataset consists of video sequences demonstrating tasks from first- and third-person perspectives, along with metadata about the affordances that are manifested in the task, and is aimed towards training perception systems to recognize affordance manifestations.  The demonstrations were collected from 23 participants and in total record about seven hours of human activity.
 
+[Add Comparison Image here]
+
 ## Data collection methodology
 
 Participants were asked to stand in front of a table with a variety of household objects and instructed to perform various small tasks centered around apples, using the objects
@@ -49,6 +51,10 @@ WilhelmTellDataset/
 
 - 189 videos in MP4 format with a total of 445 minutes of material
 
+## Test-Train Split
+
+[Add info on test train split here]
+
 ## Download link
 
 * [Wilhelm Tell Dataset Repository](https://nc.uni-bremen.de/index.php/s/3prZnQBz7pL8M2i) - Link to the dataset videos hosted on university servers.
@@ -69,6 +75,10 @@ WilhelmTellDataset/
 ## License
 
 This project is licensed under the CC-BY license - see the [LICENSE.md](LICENSE.md) file for details
+
+## Maintenance Plans
+
+[Add details on maintenance plans here]
 
 ## Acknowledgments
 

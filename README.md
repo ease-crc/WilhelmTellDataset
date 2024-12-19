@@ -1,3 +1,5 @@
+![WilhelmTellHeader](https://github.com/user-attachments/assets/1550a5bb-9e08-4ac6-9335-79f20deb43c4)
+
 # The Wilhelm Tell Dataset of Affordance Demonstrations
 
 The Wilhelm Tell Dataset is a novel dataset for affordance learning of common household tasks. Our dataset consists of video sequences demonstrating tasks from first- and third-person perspectives, along with metadata about the affordances that are manifested in the task, and is aimed towards training perception systems to recognize affordance manifestations.  The demonstrations were collected from 23 participants and in total record about seven hours of human activity.

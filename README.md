@@ -82,9 +82,11 @@ WilhelmTellDataset/
 
 - 189 videos in MP4 format with a total of 417 minutes of material
 
-## Test-Train Split
+## Train-Test Split
 
-The videos of bundles of tasks from each participant and angle were grouped into 102 training videos and 44 testing videos. A typical use case we envision for the dataset is to use a perception system capable to detect object interactions to automatically label frames from the training videos and then use the annotated frames to train an object detection or semantic segmentation model. The goal of this process is to teach the semantic segmentation model to detect functional parts of objects, i.e. parts particularly relevant for manifesting some affordance, both in contexts where the affordance is manifested and in contexts where the object sits idle. Some of the frames of the test videos are annotated to segment functional parts. For the test videos, annotations of when affordances manifest are also available, allowing to evaluate systems that would perform event segmentation. 
+The videos of bundles of tasks from each participant and angle were grouped into 102 training videos and 44 testing videos. The file train_test_split.yml contains two lists of paths to the training and testing videos respectively. Some of the frames of the test videos are annotated to segment functional parts. Also for the test videos, annotations of when affordances manifest are available, allowing to evaluate systems that would perform event segmentation.
+
+A typical use case we envision for the dataset is to use a perception system capable to detect object interactions to automatically label frames from the training videos and then use the annotated frames to train an object detection or semantic segmentation model. The goal of this process is to teach the semantic segmentation model to detect functional parts of objects, i.e. parts particularly relevant for manifesting some affordance, both in contexts where the affordance is manifested and in contexts where the object sits idle.  
 
 ## Download link
 

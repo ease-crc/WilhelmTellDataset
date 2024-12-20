@@ -113,4 +113,6 @@ The videos, still images, and annotation files are hosted on university servers 
 
 ## Acknowledgments
 
-* [Project Acknowledgements here]
+This work was funded by the FET-Open Project #951846 [*MUHAI – Meaning and Understanding for Human-centric AI*](https://muhai.org) by the EU Pathfinder and Horizon 2020 Program.
+
+This work has also been supported by the German Research Foundation DFG, as part of Collaborative Research Center 1320 Project-ID 329551904 [*EASE -- Everyday Activity Science and Engineering*, University of Bremen](https://www.ease-crc.org). The research was conducted in subproject *P01 – Embodied semantics for the language of action and change: Combining analysis, reasoning and simulation*

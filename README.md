@@ -72,6 +72,13 @@ WilhelmTellDataset/
     -P2_Frontal_Complete.mp4
     -...   
   -...
+  -TestFrames/
+    -P1_Frontal_2/
+      -01.png
+      -01.txt
+      -...
+    -...
+  -functional_part_labels.yml
   -train_test_split.yml
   -README.md
   -LICENSE.md
@@ -84,7 +91,7 @@ WilhelmTellDataset/
 
 ## Train-Test Split
 
-The videos of bundles of tasks from each participant and angle were grouped into 102 training videos and 44 testing videos. The file train_test_split.yml contains two lists of paths to the training and testing videos respectively. Some of the frames of the test videos are annotated to segment functional parts. Also for the test videos, annotations of when affordances manifest are available, allowing to evaluate systems that would perform event segmentation.
+The videos of bundles of tasks from each participant and angle were grouped into 102 training videos and 44 testing videos. The file train_test_split.yml contains two lists of paths to the training and testing videos respectively. Some of the frames of the test videos are annotated to segment functional parts. Also for the test videos, annotations of when affordances manifest are available, allowing to evaluate systems that would perform event segmentation. Annotation classes are described in functional_part_labels.yml. Annotations are given as pairs of files: a frame in png format, and a text file where each line is a polygon annotation. A polygon annotation is a class name (string) followed by a floats representing the x, y coordinates of the polygon vertices. The first and last point are identical.
 
 A typical use case we envision for the dataset is to use a perception system capable to detect object interactions to automatically label frames from the training videos and then use the annotated frames to train an object detection or semantic segmentation model. The goal of this process is to teach the semantic segmentation model to detect functional parts of objects, i.e. parts particularly relevant for manifesting some affordance, both in contexts where the affordance is manifested and in contexts where the object sits idle.  
 

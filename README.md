@@ -109,7 +109,7 @@ This project is licensed under the CC-BY license - see the [LICENSE.md](LICENSE.
 
 ## Maintenance Plans
 
-The videos, still images, and annotation files are hosted on university servers and on the [NEEMHub](https://vib.ai.uni-bremen.de/page/softwaretools/neemhub/), an infrastructure dedicated to maintaining artifacts created during our supporting collaborative research center, EASE.
+The videos, still images, and annotation files are hosted on university servers and on the [NEEMHub](https://vib.ai.uni-bremen.de/page/softwaretools/neemhub/), an infrastructure dedicated to maintaining artifacts created during our supporting collaborative research center, [EASE](https://ease-crc.org).
 
 ## Acknowledgments
 
